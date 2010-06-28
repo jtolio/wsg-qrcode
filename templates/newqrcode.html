@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>wsg-qrcode</title>
+
+</head>
+<body>
+
+<img src="http://chart.apis.google.com/chart?cht=qr&chs=500x500&chl={{qrcode.url_encoded}}&chld={{qrcode.error_correction_level}}|2"/><br/>
+
+<a href="{{qrcode.url}}">{{qrcode.target_url}}</a>
